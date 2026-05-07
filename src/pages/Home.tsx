@@ -3,12 +3,12 @@ import { Sparkles, ShieldCheck, Zap, Wallet } from 'lucide-react';
 
 export default function Home() {
   const images = [
-    "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1550951053-d18306917688?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1591886616136-621aa1680720?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1533226993203-d23258814777?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1548611635-b6e78eb9d0fb?auto=format&fit=crop&q=80&w=800",
-    "https://images.unsplash.com/photo-1507290439931-a861b5a38200?auto=format&fit=crop&q=80&w=800"
+    "https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&q=60&w=800",
+    "https://images.unsplash.com/photo-1550951053-d18306917688?auto=format&fit=crop&q=60&w=600",
+    "https://images.unsplash.com/photo-1591886616136-621aa1680720?auto=format&fit=crop&q=60&w=600",
+    "https://images.unsplash.com/photo-1533226993203-d23258814777?auto=format&fit=crop&q=60&w=600",
+    "https://images.unsplash.com/photo-1548611635-b6e78eb9d0fb?auto=format&fit=crop&q=60&w=600",
+    "https://images.unsplash.com/photo-1507290439931-a861b5a38200?auto=format&fit=crop&q=60&w=600"
   ];
 
   return (

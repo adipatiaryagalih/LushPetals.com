@@ -7,7 +7,7 @@ const products = [
     name: "Bouquet Artificial",
     description: "Buket bunga artificial yang dibungkus dengan kertas aesthetic (wrapping paper) dan pita cantik.",
     price: "Rp. 75.000",
-    image: "https://images.unsplash.com/photo-1591886616136-621aa1680720?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1591886616136-621aa1680720?auto=format&fit=crop&q=60&w=500",
     tag: "Best Seller"
   },
   {
@@ -15,7 +15,7 @@ const products = [
     name: "Flower Vase",
     description: "Bunga artificial yang sudah dirangkai dalam vas (kaca/keramik/plastik premium).",
     price: "Rp. 19.200",
-    image: "https://images.unsplash.com/photo-1533226993203-d23258814777?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1533226993203-d23258814777?auto=format&fit=crop&q=60&w=500",
     tag: "Minimalist"
   },
   {
@@ -23,7 +23,7 @@ const products = [
     name: "Flower Box",
     description: "Bunga disusun dalam kotak (box) elegan, biasanya bentuk love atau square.",
     price: "Rp. 240.000",
-    image: "https://images.unsplash.com/photo-1548611635-b6e78eb9d0fb?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1548611635-b6e78eb9d0fb?auto=format&fit=crop&q=60&w=500",
     tag: "Premium Gift"
   }
 ];
@@ -98,7 +98,7 @@ export default function Products() {
         </div>
         <div className="flex-1 w-full aspect-square md:aspect-video rounded-2xl overflow-hidden shadow-2xl">
             <img 
-              src="https://images.unsplash.com/photo-1507290439931-a861b5a38200?auto=format&fit=crop&q=80&w=1200" 
+              src="https://images.unsplash.com/photo-1507290439931-a861b5a38200?auto=format&fit=crop&q=60&w=800" 
               className="w-full h-full object-cover"
             />
         </div>

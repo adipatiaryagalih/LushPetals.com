@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -9,8 +9,8 @@ import { motion, AnimatePresence } from 'motion/react';
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <div className="min-h-screen flex flex-col">
+    <Router>
+      <div className="min-h-screen flex flex-col bg-cream">
         <Navbar />
         <main className="flex-grow">
           <AnimatePresence mode="wait">
@@ -23,11 +23,11 @@ export default function App() {
             </Routes>
           </AnimatePresence>
         </main>
-        <footer className="py-12 px-6 text-center text-sm opacity-60 border-t border-primary/10">
+        <footer className="py-12 px-6 text-center text-xs opacity-40 border-t border-black/5">
           <p>© 2026 LushPetals. Aesthetic Digital Florist.</p>
         </footer>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

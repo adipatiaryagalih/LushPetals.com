@@ -7,7 +7,7 @@ export default function About() {
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div className="relative aspect-[4/5] overflow-hidden rounded-hero shadow-soft group">
           <img 
-            src="https://images.unsplash.com/photo-1550951053-d18306917688?auto=format&fit=crop&q=80&w=800" 
+            src="https://images.unsplash.com/photo-1550951053-d18306917688?auto=format&fit=crop&q=60&w=600" 
             alt="LushPetals" 
             className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
@@ -68,7 +68,7 @@ export default function About() {
       {/* Aesthetic Filler Image */}
       <section className="relative h-[400px] overflow-hidden rounded-[3rem]">
         <img 
-          src="https://images.unsplash.com/photo-1548611635-b6e78eb9d0fb?auto=format&fit=crop&q=80&w=1200" 
+          src="https://images.unsplash.com/photo-1548611635-b6e78eb9d0fb?auto=format&fit=crop&q=60&w=800" 
           className="w-full h-full object-cover grayscale-[20%] opacity-90"
         />
         <div className="absolute inset-0 flex items-center justify-center">
